@@ -17,5 +17,9 @@
     "passport-google-oauth": "^1.0.0",
     "react": "^16.8.4",
     "react-dom": "^16.8.4"
+  },
+  "devDependencies": {
+    "@fortawesome/fontawesome-free": "^5.7.2",
+    "bootstrap": "^4.3.1"
   }
 }
