@@ -1,4 +1,4 @@
-var React = require("react");
+var React = require('react');
 
 class DefaultLayout extends React.Component {
   render() {

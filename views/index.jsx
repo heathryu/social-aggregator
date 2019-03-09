@@ -1,6 +1,6 @@
-var React = require("react");
+var React = require('react');
 
-var DefaultLayout = require("./layouts/default");
+var DefaultLayout = require('./layouts/default');
 
 class Index extends React.Component {
   render() {
