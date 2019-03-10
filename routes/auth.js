@@ -4,7 +4,10 @@ var router = express.Router();
 
 router.route('/google').get(
   passport.authenticate('google', {
-    scope: ['https://www.googleapis.com/auth/gmail.readonly']
+    scope: [
+      'https://www.googleapis.com/auth/userinfo.profile',
+      'https://www.googleapis.com/auth/userinfo.email'
+    ]
   })
 );
 

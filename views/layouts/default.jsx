@@ -7,10 +7,10 @@ class DefaultLayout extends React.Component {
         <head>
           <title>{this.props.title}</title>
           <link rel="stylesheet" href="/bootstrap/dist/css/bootstrap.min.css" />
-          <link rel="stylesheet" href="fontawesome/css/fontawesome.min.css" />
+          <link rel="stylesheet" href="/fontawesome/css/all.min.css" />
           <link rel="stylesheet" href="/stylesheets/style.css" />
 
-          <script src="bootstrap/dist/js/bootstrap.bundle.min.js" />
+          <script src="/bootstrap/dist/js/bootstrap.bundle.min.js" />
         </head>
         <body>{this.props.children}</body>
       </html>
