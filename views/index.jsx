@@ -6,8 +6,17 @@ class Index extends React.Component {
   render() {
     return (
       <DefaultLayout title={this.props.title}>
-        <h1>{this.props.title}</h1>
-        <p>Welcome to {this.props.title}</p>
+        <div>
+          <h1>{this.props.title}</h1>
+
+          <ul>
+            <li>
+              <a href="/auth/google" className="google">
+                <i className="fab fa-google" />
+              </a>
+            </li>
+          </ul>
+        </div>
       </DefaultLayout>
     );
   }
